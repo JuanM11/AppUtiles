@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText palabra;
     private ImageView imagen;
     private Button comprobar;
-    private String[] nombr={"eraser", "pencil", "book", "backpack", "sharpener"};
+    private String[] nombr={"eraser", "pencil", "book", "backpack", "sharpener", "clippers", "pen", "rule"};
     private int generado=0;
     private int intentos=0;
     TextView co;
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                String p = palabra.getText().toString().toLowerCase();
                if (p.equals(nombr[generado]))
                 {
-                    Toast.makeText(getApplicationContext(),"correct",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Correct",Toast.LENGTH_SHORT).show();
                  establecerimagen(generado);
                  esperar();
                  palabra.setText("");
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else
                {
-                   Toast.makeText(getApplicationContext(),"incorrect",Toast.LENGTH_SHORT).show();
+                   Toast.makeText(getApplicationContext(),"Incorrect",Toast.LENGTH_SHORT).show();
                    establecerimagen(generado);
                    esperar();
                    palabra.setText("");

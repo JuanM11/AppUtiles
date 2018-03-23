@@ -4,12 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.juan.apputiles.SplashScreen">
 
     <TextView
         android:id="@+id/textosplash"
-        android:layout_width="wrap_content"
-        android:layout_height="71dp"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
         android:layout_weight="1"
         android:text="@string/textosplash" />
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="373dp"
+        android:layout_height="352dp"
+        android:src="@drawable/utilesanimados" />
 </LinearLayout>
