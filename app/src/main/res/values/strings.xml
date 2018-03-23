@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppUtiles</string>
+    <string name="titulo">Ingrese en ingles la palabra que corresponde a la imagen presentada a continuación:</string>
+    <string name="comprobar">Comprobar</string>
+    <string name="acerca">Acerca de</string>
+    <string name="universidad">Universidad Mariana</string>
+    <string name="creado">Creado</string>
+    <string name="nombre">Nombre</string>
+    <string name="salir">Volver</string>
+    <string name="textosplash">La siguiente aplicacion se desarrollo con fines educativos para que el usuario compruebe sus conocimientos basicos sobre los utiles escolares en ingles</string>
+    <string name="felicitacion">FELICITACIONES HAS GANADO</string>
+</resources>

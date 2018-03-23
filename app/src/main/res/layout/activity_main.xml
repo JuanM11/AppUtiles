@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <Button
+        android:id="@+id/comprobar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="31dp"
+        android:layout_y="433dp"
+        android:text="@string/comprobar"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <Button
+        android:id="@+id/acerca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="256dp"
+        android:layout_y="433dp"
+        android:onClick="acerca"
+        android:text="@string/acerca"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <EditText
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="91dp"
+        android:layout_y="372dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="9dp"
+        android:text="@string/titulo"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="23dp" />
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="283dp"
+        android:layout_height="296dp"
+        android:layout_x="50dp"
+        android:layout_y="59dp"
+        app:srcCompat="@drawable/eraser"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/correctas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="140dp"
+        android:layout_y="455dp" />
+
+</AbsoluteLayout>

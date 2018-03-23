@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App School Supplies</string>
+    <string name="titulo">Enter in english the word that corresponds to the image presented below</string>
+    <string name="comprobar">Check</string>
+    <string name="acerca">About</string>
+    <string name="universidad">University of Mariana</string>
+    <string name="creado">Created</string>
+    <string name="nombre">name</string>
+    <string name="salir">Return</string>
+    <string name="textosplash">The following application was developed with educational purposes
+        for the user to check their basic
+        knowledge about school supplies in English</string>
+    <string name="felicitacion">" CONGRATULATIONS YOU HAVE WON"</string>
+
+
+</resources>
